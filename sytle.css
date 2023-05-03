@@ -1,0 +1,33 @@
+*{
+  
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+.card {
+  width: 25%;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.card-picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.card-title {
+  margin-bottom: 15px;
+}
+p {
+  color: rgb(189, 188, 188);
+  font-size: 15px;
+}
